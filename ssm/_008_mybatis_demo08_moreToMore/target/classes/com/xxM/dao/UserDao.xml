@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxM.dao.UserDao">
+    <select id="findUserAccountList" resultMap="userAccountListMap">
+        select u.*,a.aid,a.money from t_user u left join t_account a on u.uid=a.uid
+    </select>
+    <resultMap id="userAccountListMap" type="user">
+        <id property="uid" column="uid"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+        <collection property="accounts" ofType="Account">
+            <result property="aid" column="aid"></result>
+            <result property="money" column="money"></result>
+        </collection>
+    </resultMap>
+</mapper>

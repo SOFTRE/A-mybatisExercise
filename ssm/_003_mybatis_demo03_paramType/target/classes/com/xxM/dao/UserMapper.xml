@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace属性: 接口类的全限定名-->
+<mapper namespace="com.xxM.dao.UserMapper">
+    <insert id="addUser"   useGeneratedKeys="true" keyProperty="id">
+<!--    <selectKey keyProperty="id" resultType="int" order="AFTER">-->
+<!--        SELECT last_insert_id();-->
+<!--    </selectKey>-->
+        INSERT INTO user(username,birthday,sex,address) VALUES (#{a.user.username},#{a.user.birthday},#{a.user.sex},#{a.user.address});
+    </insert>
+</mapper>

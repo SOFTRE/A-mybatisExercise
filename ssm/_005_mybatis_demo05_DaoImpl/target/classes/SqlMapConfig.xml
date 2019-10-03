@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties">
+        <!--resource引入的相对路径能够覆盖内部property配置的属性-->
+    <property name="jdbc.driver" value="com.mysql.jdbc.Driver"/>
+    </properties>
+    <settings>
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+    <typeAliases>
+        <package name="com.xxM.domain"/>
+    </typeAliases>
+    <environments default="development2">
+        <environment id="development2">
+            <!--配置事务,MyBatis事务用的是jdbc-->
+            <transactionManager type="JDBC"/>
+            <!--配置连接池, POOLED:使用连接池(mybatis内置的); UNPOOLED:不使用连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="com/xxM/dao/UserMapper.xml"/>
+    </mappers>
+</configuration>

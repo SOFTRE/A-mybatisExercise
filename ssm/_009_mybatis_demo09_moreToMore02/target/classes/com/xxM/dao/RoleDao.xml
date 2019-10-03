@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxM.dao.RoleDao">
+    <select id="findRoleList" resultMap="roleListMap">
+        select r.*,u.username,u.address,u.birthday,u.sex from t_role r,user_role ur,t_user u where r.rid=ur.rid and ur.uid=u.uid;
+    </select>
+    <resultMap id="roleListMap" type="role">
+        <id column="rid" property="rid"></id>
+        <result property="rName" column="rName"></result>
+        <result property="rDesc" column="rDesc"></result>
+        <collection property="users" ofType="user">
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+            <result column="birthday" property="birthday"></result>
+            <result column="sex" property="sex"></result>
+        </collection>
+    </resultMap>
+</mapper>

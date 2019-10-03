@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace属性: 接口类的全限定名-->
+<mapper namespace="com.xxM.dao.UserInfoMapper">
+    <resultMap id="baseResult" type="UserInfo">
+        <id column="user_id" property="userId"></id>
+        <result column="user_name" property="userName"></result>
+        <result column="user_birthday" property="userBirthday"></result>
+        <result column="user_sex" property="userSex"></result>
+        <result column="user_address" property="userAddress"></result>
+    </resultMap>
+   <select id="countAll" resultType="int">
+        select count(*) from user
+   </select>
+<!--sql片段，id：唯一标识 可以使用include标签引入-->
+    <sql id="liao">
+--      sql+别名，解决字段和属性名不一致问题
+        user_id       userId,
+        user_name     userName,
+        user_birthday userBirthday,
+        user_sex      userSex,
+        user_address  userAddress
+    </sql>
+    <select id="queryAll" resultType="userInfo">
+        select
+       <include refid="liao">
+       </include>
+    from user_Info;
+    </select>
+    <select id="queryAll2" resultMap="baseResult">
+        select
+        user_id,
+        user_name,
+        user_birthday,
+        user_sex,
+        user_address
+    from user_Info;
+    </select>
+    <select id="queryAll3" resultType="userInfo" >
+        select * from user_Info;
+    </select>
+</mapper>

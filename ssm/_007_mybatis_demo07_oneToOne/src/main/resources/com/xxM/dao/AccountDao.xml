@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxM.dao.UserDao">
+    <select id="findAccountList" resultType="AccountCustom">
+        select a.*,u.username,u.address from user u, t_account a where u.id=a.aid;
+    </select>
+    <select id="findAccountList02" resultMap="accountListMap">
+        select a.*,u.username,u.address from t_account a  left outer join user u  on u.id=a.aid;
+    </select>
+    <resultMap id="accountListMap" type="Account02">
+        <id column="aid" property="aid"></id>
+        <result column="money" property="money"></result>
+        <result column="uid" property="uid"></result>
+        <association property="user" javaType="User">
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+        </association>
+    </resultMap>
+</mapper>

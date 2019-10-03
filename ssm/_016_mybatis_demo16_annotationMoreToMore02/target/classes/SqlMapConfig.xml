@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties">
+        <!--resource引入的相对路径能够覆盖内部property配置的属性-->
+    <property name="jdbc.driver" value="com.mysql.jdbc.Driver"/>
+    </properties>
+<!--    <settings>-->
+<!--        <setting name="useGeneratedKeys" value="true"/>-->
+<!--    </settings>-->
+
+    <typeAliases>
+<!--        <typeAlias type="com.xxM.domain.User" alias="asd"/>-->
+        <!--设置一个包名，扫描包下面的所有javaBean，把它们的全限定名设置为类名-->
+        <package name="com.xxM.domain"/>
+    </typeAliases>
+    <environments default="development2">
+        <!--<environment id="development">
+            &lt;!&ndash;配置事务,MyBatis事务用的是jdbc&ndash;&gt;
+            <transactionManager type="JDBC"/>
+            &lt;!&ndash;配置连接池, POOLED:使用连接池(mybatis内置的); UNPOOLED:不使用连接池&ndash;&gt;
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/xxm?characterEncoding=utf-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>-->
+        <environment id="development2">
+            <!--配置事务,MyBatis事务用的是jdbc-->
+            <transactionManager type="JDBC"/>
+            <!--配置连接池, POOLED:使用连接池(mybatis内置的); UNPOOLED:不使用连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--引入映射文件; resource属性: 映射文件的路径-->
+<!--        <mapper resource="mapper/AccountDao.xml"/>-->
+<!--        <mapper url=""/>-->
+<!--    <mapper resource="com/xxM/dao/AccountDao.xml"/>-->
+<!--        <mapper class="com.xxM.dao.AccountDao"/>-->
+        <package name="com.xxM.dao"/>
+    </mappers>
+</configuration>

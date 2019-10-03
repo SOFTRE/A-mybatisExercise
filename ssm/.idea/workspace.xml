@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="094ac353-30df-4c13-bb2b-afe75429e0f4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven\repository" />
+        <option name="userSettingsFile" value="D:\apache-maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RNL5n7qLzWBUvn1qqhAfOnRdbv" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm01" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxM.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\ssm" />
+      <recent name="D:\MyProjects\ssm\_015_mybatis_demo15_annotationMoreToMore\src\main\resources\com\xxM\dao" />
+      <recent name="D:\MyProjects\ssm\_004_mybatis_demo04_resultType\src\main\resources\com\xxM\dao" />
+      <recent name="D:\MyProjects\ssm\_001_mybatis_demo01_qs\src" />
+      <recent name="D:\MyProjects\ssm\_001_mybatis_demo01_qs\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.method">
+    <configuration name="MyTest.method (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_001_mybatis_demo01_qs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxM" />
+      <option name="MAIN_CLASS_NAME" value="com.xxM.MyTest" />
+      <option name="METHOD_NAME" value="method" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.method (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_009_mybatis_demo09_moreToMore02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxM" />
+      <option name="MAIN_CLASS_NAME" value="com.xxM.MyTest" />
+      <option name="METHOD_NAME" value="method" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_017_mybatis_demo_annotation_moreTomore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxM" />
+      <option name="MAIN_CLASS_NAME" value="com.xxM.MyTest" />
+      <option name="METHOD_NAME" value="method" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.method1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_013_mybatis_demo13_conformTheSecoundCacheExist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxM" />
+      <option name="MAIN_CLASS_NAME" value="com.xxM.MyTest" />
+      <option name="METHOD_NAME" value="method1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.method5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_002_mybatis_demo02_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xxM" />
+      <option name="MAIN_CLASS_NAME" value="com.xxM.MyTest" />
+      <option name="METHOD_NAME" value="method5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.method" />
+        <item itemvalue="JUnit.MyTest.method5" />
+        <item itemvalue="JUnit.MyTest.method1" />
+        <item itemvalue="JUnit.MyTest.method (3)" />
+        <item itemvalue="JUnit.MyTest.method (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="094ac353-30df-4c13-bb2b-afe75429e0f4" name="Default Changelist" comment="" />
+      <created>1569502425149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569502425149</updated>
+      <workItem from="1569502426286" duration="2934000" />
+      <workItem from="1569507428035" duration="5192000" />
+      <workItem from="1569565306748" duration="21772000" />
+      <workItem from="1569594540994" duration="3384000" />
+      <workItem from="1569598616922" duration="2151000" />
+      <workItem from="1569637691518" duration="4588000" />
+      <workItem from="1569657744050" duration="16095000" />
+      <workItem from="1569676342553" duration="4413000" />
+      <workItem from="1569721823486" duration="16195000" />
+      <workItem from="1569754731478" duration="10567000" />
+      <workItem from="1569828239028" duration="12422000" />
+      <workItem from="1569907317714" duration="21203000" />
+      <workItem from="1569979893187" duration="7566000" />
+      <workItem from="1570069172417" duration="5346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

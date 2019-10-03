@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/_001_mybatis_demo01_qs/_001_mybatis_demo01_qs.iml" filepath="$PROJECT_DIR$/_001_mybatis_demo01_qs/_001_mybatis_demo01_qs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_002_mybatis_demo02_crud/_002_mybatis_demo02_crud.iml" filepath="$PROJECT_DIR$/_002_mybatis_demo02_crud/_002_mybatis_demo02_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_003_mybatis_demo03_paramType/_003_mybatis_demo03_paramType.iml" filepath="$PROJECT_DIR$/_003_mybatis_demo03_paramType/_003_mybatis_demo03_paramType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_004_mybatis_demo04_resultType/_004_mybatis_demo04_resultType.iml" filepath="$PROJECT_DIR$/_004_mybatis_demo04_resultType/_004_mybatis_demo04_resultType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_005_mybatis_demo05_DaoImpl/_005_mybatis_demo05_DaoImpl.iml" filepath="$PROJECT_DIR$/_005_mybatis_demo05_DaoImpl/_005_mybatis_demo05_DaoImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_006_mybatis_demo06_activeSql/_006_mybatis_demo06_activeSql.iml" filepath="$PROJECT_DIR$/_006_mybatis_demo06_activeSql/_006_mybatis_demo06_activeSql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_007_mybatis_demo07_oneToOne/_007_mybatis_demo07_oneToOne.iml" filepath="$PROJECT_DIR$/_007_mybatis_demo07_oneToOne/_007_mybatis_demo07_oneToOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_008_mybatis_demo08_moreToMore/_008_mybatis_demo08_moreToMore.iml" filepath="$PROJECT_DIR$/_008_mybatis_demo08_moreToMore/_008_mybatis_demo08_moreToMore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_009_mybatis_demo09_moreToMore02/_009_mybatis_demo09_moreToMore02.iml" filepath="$PROJECT_DIR$/_009_mybatis_demo09_moreToMore02/_009_mybatis_demo09_moreToMore02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_010_mybatis_demo10_oneToOneLazy/_010_mybatis_demo10_oneToOneLazy.iml" filepath="$PROJECT_DIR$/_010_mybatis_demo10_oneToOneLazy/_010_mybatis_demo10_oneToOneLazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_011_mybatis_demo11_oneToMoreLazy/_011_mybatis_demo11_oneToMoreLazy.iml" filepath="$PROJECT_DIR$/_011_mybatis_demo11_oneToMoreLazy/_011_mybatis_demo11_oneToMoreLazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_012_mybatis_demo12_conformTheFirstCacheExist/_012_mybatis_demo12_conformTheFirstCacheExist.iml" filepath="$PROJECT_DIR$/_012_mybatis_demo12_conformTheFirstCacheExist/_012_mybatis_demo12_conformTheFirstCacheExist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_013_mybatis_demo13_conformTheSecoundCacheExist/_013_mybatis_demo13_conformTheSecoundCacheExist.iml" filepath="$PROJECT_DIR$/_013_mybatis_demo13_conformTheSecoundCacheExist/_013_mybatis_demo13_conformTheSecoundCacheExist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_014_mybatis_demo14_annotation/_014_mybatis_demo14_annotation.iml" filepath="$PROJECT_DIR$/_014_mybatis_demo14_annotation/_014_mybatis_demo14_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_015_mybatis_demo15_annotationMoreToMore/_015_mybatis_demo15_annotationMoreToMore.iml" filepath="$PROJECT_DIR$/_015_mybatis_demo15_annotationMoreToMore/_015_mybatis_demo15_annotationMoreToMore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_016_mybatis_demo16_annotationMoreToMore02/_016_mybatis_demo16_annotationMoreToMore02.iml" filepath="$PROJECT_DIR$/_016_mybatis_demo16_annotationMoreToMore02/_016_mybatis_demo16_annotationMoreToMore02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_017_mybatis_demo_annotation_moreTomore/_017_mybatis_demo_annotation_moreTomore.iml" filepath="$PROJECT_DIR$/_017_mybatis_demo_annotation_moreTomore/_017_mybatis_demo_annotation_moreTomore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ssm.iml" filepath="$PROJECT_DIR$/.idea/ssm.iml" />
+    </modules>
+  </component>
+</project>

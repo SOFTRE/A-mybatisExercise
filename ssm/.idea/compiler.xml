@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_017_mybatis_demo_annotation_moreTomore" />
+        <module name="_016_mybatis_demo16_annotationMoreToMore02" />
+        <module name="_010_mybatis_demo10_oneToOneLazy" />
+        <module name="_001_mybatis_demo01_qs" />
+        <module name="_002_mybatis_demo02_crud" />
+        <module name="_006_mybatis_demo06_activeSql" />
+        <module name="_007_mybatis_demo07_oneToOne" />
+        <module name="_005_mybatis_demo05_DaoImpl" />
+        <module name="_003_mybatis_demo03_paramType" />
+        <module name="_009_mybatis_demo09_moreToMore02" />
+        <module name="_012_mybatis_demo12_conformTheFirstCacheExist" />
+        <module name="_008_mybatis_demo08_moreToMore" />
+        <module name="_013_mybatis_demo13_conformTheSecoundCacheExist" />
+        <module name="_014_mybatis_demo14_annotation" />
+        <module name="_011_mybatis_demo11_oneToMoreLazy" />
+        <module name="_004_mybatis_demo04_resultType" />
+        <module name="_015_mybatis_demo15_annotationMoreToMore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_001_mybatis_demo01_qs" target="1.8" />
+      <module name="_002_mybatis_demo02_crud" target="1.8" />
+      <module name="_003_mybatis_demo03_paramType" target="1.8" />
+      <module name="_004_mybatis_demo04_resultType" target="1.8" />
+      <module name="_005_mybatis_demo05_DaoImpl" target="1.8" />
+      <module name="_006_mybatis_demo06_activeSql" target="1.8" />
+      <module name="_007_mybatis_demo07_oneToOne" target="1.8" />
+      <module name="_008_mybatis_demo08_moreToMore" target="1.8" />
+      <module name="_009_mybatis_demo09_moreToMore02" target="1.8" />
+      <module name="_010_mybatis_demo10_oneToOneLazy" target="1.8" />
+      <module name="_011_mybatis_demo11_oneToMoreLazy" target="1.8" />
+      <module name="_012_mybatis_demo12_conformTheFirstCache" target="1.8" />
+      <module name="_012_mybatis_demo12_conformTheFirstCacheExist" target="1.8" />
+      <module name="_013_mybatis_demo13_conformTheSecoundCacheExist" target="1.8" />
+      <module name="_014_mybatis_demo14_annotation" target="1.8" />
+      <module name="_015_mybatis_demo15_annotationMoreToMore" target="1.8" />
+      <module name="_016_mybatis_demo16_annotationMoreToMore02" target="1.8" />
+      <module name="_017_mybatis_demo_annotation_moreTomore" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

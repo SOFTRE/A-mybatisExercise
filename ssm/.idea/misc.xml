@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/_001_mybatis_demo01_qs/pom.xml" />
+        <option value="$PROJECT_DIR$/_002_mybatis_demo02_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/_003_mybatis_demo03_paramType/pom.xml" />
+        <option value="$PROJECT_DIR$/_004_mybatis_demo04_resultType/pom.xml" />
+        <option value="$PROJECT_DIR$/_005_mybatis_demo05_DaoImpl/pom.xml" />
+        <option value="$PROJECT_DIR$/_006_mybatis_demo06_activeSql/pom.xml" />
+        <option value="$PROJECT_DIR$/_007_mybatis_demo07_oneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/_008_mybatis_demo08_moreToMore/pom.xml" />
+        <option value="$PROJECT_DIR$/_009_mybatis_demo09_moreToMore02/pom.xml" />
+        <option value="$PROJECT_DIR$/_010_mybatis_demo10_oneToOneLazy/pom.xml" />
+        <option value="$PROJECT_DIR$/_011_mybatis_demo11_oneToMoreLazy/pom.xml" />
+        <option value="$PROJECT_DIR$/_012_mybatis_demo12_conformTheFirstCache/pom.xml" />
+        <option value="$PROJECT_DIR$/_012_mybatis_demo12_conformTheFirstCacheExist/pom.xml" />
+        <option value="$PROJECT_DIR$/_013_mybatis_demo13_conformTheSecoundCacheExist/pom.xml" />
+        <option value="$PROJECT_DIR$/_014_mybatis_demo14_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/_015_mybatis_demo15_annotationMoreToMore/pom.xml" />
+        <option value="$PROJECT_DIR$/_016_mybatis_demo16_annotationMoreToMore02/pom.xml" />
+        <option value="$PROJECT_DIR$/_017_mybatis_demo_annotation_moreTomore/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/_002_mybatis_demo02_crud/out" />
+  </component>
+</project>

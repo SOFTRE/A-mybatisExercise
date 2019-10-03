@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace属性: 接口类的全限定名-->
+<mapper namespace="com.xxM.dao.AccountDao">
+    <!--select标签: 查询
+        id属性: 方法名
+        resultType属性: 写方法返回值类型(如果是list,直接写实体类的全限定名)
+        标签体: sql语句
+    -->
+    <select id="findAll" resultType="user">
+         SELECT * FROM  t_user
+         ${value}
+    </select>
+    <select id="findById" resultType="user" parameterType="int">
+        SELECT * FROM t_user WHERE uid=#{asd};
+    </select>
+<!--    增删改默认返回受影响的行数(int)，不能自定义-->
+
+    <insert id="addUser"  parameterType="user" useGeneratedKeys="true" keyProperty="uid">
+<!--    <selectKey keyProperty="uid" resultType="int" order="AFTER">-->
+<!--        SELECT last_insert_uid();-->
+<!--    </selectKey>-->
+        INSERT INTO t_user(username,birthday,sex,address) VALUES (#{username},#{birthday},#{sex},#{address});
+    </insert>
+    <delete id="deleteById"  parameterType="int">
+        DELETE FROM t_user WHERE uid=#{uid}
+    </delete>
+    <update id="updateById" parameterType="user">
+        UPDATE t_user SET username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} WHERE uid=#{uid};
+    </update>
+    <!--方式一：
+    %山%
+    使用concat(%,#{address},%)拼接-->
+    <select id="findByAddress" resultType="user">
+        SELECT * FROM user WHERE address LIKE CONCAT('%',#{address},'%');
+    </select>
+    <!--方式二：
+    %山%
+    ${}
+    1.它是把取到的值拼接进去
+    2.当传入参数是简单类型值时，一定要使用value取值
+    3.它不会进行类型转换-->
+    <select id="findByAddress2" resultType="user">
+        SELECT * FROM user WHERE address LIKE '%${value}%';
+    </select>
+</mapper>
